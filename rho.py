@@ -60,7 +60,3 @@ class rho:
         phi_t = np.angle(r) - np.pi / 4
         phi = list(map(math.degrees, (np.angle(r) - np.pi / 4)))
         return [rc, phi]
-
-
-if __name__ == "__main__":
-    ShowData("test_data/x.txt")

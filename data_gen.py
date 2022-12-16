@@ -1,9 +1,4 @@
-
-import string
-
-import random 
 from datetime import datetime
-
 from matplotlib.pyplot import step 
 
 
@@ -18,6 +13,7 @@ class data_generator:
         self.p = p
         self.x = x
         self.y = y
+
     def generate_data_file(self):
         #Заполняем дефолтные зачения
         array = [] 
